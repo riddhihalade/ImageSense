@@ -13,7 +13,7 @@ Setup:
 1. Set up the environment
 2. To start the server, use the following command:
 
-uvicorn api:app --reload
+uvicorn main:app --reload
 
 By default, the server will start on http://127.0.0.1:8000. 
 You can access the API documentation at http://127.0.0.1:8000/docs
